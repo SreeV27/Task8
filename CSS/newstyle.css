@@ -27,7 +27,9 @@ font-size:13px;
 .fs-12{
 font-size:12px;
 }
-
+.fs-11{
+font-size:11px;
+}
 .fs-34{
 font-size:34px;
 }
@@ -133,3 +135,37 @@ border:1px solid red;
 .js-sb {
     justify-content: space-between;
 }
+
+@media screen and (min-width:393px) and (max-width:991px){
+
+.custom{
+margin-left:8px;
+}
+
+}
+
+@media screen and (min-width:375px) and (max-width:565px){
+
+.custom-ms-2{
+margin-left:8px;
+}
+
+}
+
+@media screen and (min-width:643px) and (max-width:767px){
+
+.custom-ms-cp{
+margin-left:8px;
+}
+
+}
+@media screen and (min-width:566px) and (max-width:648px){
+
+.custom-ms-0{
+margin-left:0px;
+}}
+@media screen and (min-width:340px) {
+
+.custom-ms2{
+margin-left:8px;
+}}
